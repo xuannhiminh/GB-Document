@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id" translatable="false">1042498093875888</string>
+    <string name="facebook_client_token" translatable="false">8d65fca320c19f13d408851f9e07ff10</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-5904408074441373~8271967567</string>
+    <string name="app_flyer_id" translatable="false">Qhno4yJY6KHmZp9uS9DRe4</string>
+
+
+</resources>
