@@ -539,6 +539,10 @@
     <string name="other_features_that_you_want_to_have">अन्य फ़ीचर जिन्हें आप चाहते हैं</string>
     <string name="thanks_for_feedback">आपकी प्रतिक्रिया के लिए धन्यवाद!</string>
     <string name="deliver_better_experience">हम बेहतर अनुभव प्रदान करने का प्रयास करते हैं।</string>
+    <string name="account">खाता</string>
+    <string name="app">ऐप</string>
+    <string name="display">प्रदर्शन</string>
+    <string name="support">सहायता</string>
 
 
 </resources>

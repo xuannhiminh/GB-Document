@@ -555,6 +555,10 @@
     <string name="other_features_that_you_want_to_have">Các tính năng khác mà bạn muốn có</string>
     <string name="thanks_for_feedback">Cảm ơn phản hồi của bạn!</string>
     <string name="deliver_better_experience">Chúng tôi nỗ lực mang đến trải nghiệm tốt hơn.</string>
+    <string name="account">Tài khoản</string>
+    <string name="app">Ứng dụng</string>
+    <string name="display">Hiển thị</string>
+    <string name="support">Hỗ trợ</string>
 
 
 </resources>

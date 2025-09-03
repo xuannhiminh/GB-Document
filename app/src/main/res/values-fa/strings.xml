@@ -454,6 +454,10 @@
     <string name="other_features_that_you_want_to_have">سایر ویژگی‌هایی که می‌خواهید داشته باشید</string>
     <string name="thanks_for_feedback">از بازخورد شما متشکریم!</string>
     <string name="deliver_better_experience">ما تلاش می‌کنیم تجربه بهتری ارائه دهیم.</string>
+    <string name="account">حساب</string>
+    <string name="app">برنامه</string>
+    <string name="display">نمایش</string>
+    <string name="support">پشتیبانی</string>
 
 
 </resources> 

@@ -433,6 +433,10 @@
     <string name="other_features_that_you_want_to_have">Інші функції, які ви хочете мати</string>
     <string name="thanks_for_feedback">Дякуємо за ваш відгук!</string>
     <string name="deliver_better_experience">Ми прагнемо забезпечити кращий досвід.</string>
+    <string name="account">Обліковий запис</string>
+    <string name="app">Додаток</string>
+    <string name="display">Дисплей</string>
+    <string name="support">Підтримка</string>
 
 
 </resources> 

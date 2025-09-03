@@ -548,5 +548,9 @@
     <string name="other_features_that_you_want_to_have">Fitur lain yang ingin Anda miliki</string>
     <string name="thanks_for_feedback">Terima kasih atas masukan Anda!</string>
     <string name="deliver_better_experience">Kami berusaha memberikan pengalaman yang lebih baik.</string>
+    <string name="account">Akun</string>
+    <string name="app">Aplikasi</string>
+    <string name="display">Tampilan</string>
+    <string name="support">Dukungan</string>
 
 </resources>

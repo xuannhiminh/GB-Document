@@ -623,5 +623,9 @@
     <string name="other_features_that_you_want_to_have">Other features that you want to have</string>
     <string name="thanks_for_feedback">Thanks for your feedback!</string>
     <string name="deliver_better_experience">We strive to deliver a better experience.</string>
+    <string name="account">Account</string>
+    <string name="app">App</string>
+    <string name="display">Display</string>
+    <string name="support">Support</string>
 
 </resources>

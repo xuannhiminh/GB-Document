@@ -433,5 +433,9 @@
     <string name="other_features_that_you_want_to_have">您想要的其他功能</string>
     <string name="thanks_for_feedback">感謝您的回饋！</string>
     <string name="deliver_better_experience">我們致力於提供更好的體驗。</string>
+    <string name="account">帳戶</string>
+    <string name="app">應用程式</string>
+    <string name="display">顯示</string>
+    <string name="support">支援</string>
 
 </resources> 

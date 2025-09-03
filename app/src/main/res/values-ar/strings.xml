@@ -534,6 +534,10 @@
     <string name="other_features_that_you_want_to_have">ميزات أخرى ترغب في الحصول عليها</string>
     <string name="thanks_for_feedback">شكرًا لملاحظاتك!</string>
     <string name="deliver_better_experience">نسعى لتقديم تجربة أفضل.</string>
+    <string name="account">الحساب</string>
+    <string name="app">التطبيق</string>
+    <string name="display">العرض</string>
+    <string name="support">الدعم</string>
 
 
 </resources>

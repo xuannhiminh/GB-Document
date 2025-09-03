@@ -317,9 +317,9 @@ class SettingActivity : PdfBaseActivity<ActivitySettingsBinding>() {
             onSelectedFunction(FunctionState.BROWSE_FILE)
         }
 
-        binding.funcRateUs.setOnClickListener {
-            onSelectedFunction(FunctionState.RATE_US)
-        }
+//        binding.funcRateUs.setOnClickListener {
+//            onSelectedFunction(FunctionState.RATE_US)
+//        }
         binding.funcSendFeedback.setOnClickListener {
             onSelectedFunction(FunctionState.FEEDBACK)
         }
@@ -478,9 +478,9 @@ class SettingActivity : PdfBaseActivity<ActivitySettingsBinding>() {
         checkFeatureRequestToShowUI()
         applyKeepScreenOnState()
         nightModeState()
-        if (TemporaryStorage.isRateFullStar){
-            binding.funcRateUs.visibility = View.INVISIBLE
-        }
+//        if (TemporaryStorage.isRateFullStar){
+//            binding.funcRateUs.visibility = View.INVISIBLE
+//        }
         if(waitingNotificationResult) {
             waitingNotificationResult = false
             val granted = ContextCompat.checkSelfPermission(

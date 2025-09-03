@@ -453,6 +453,10 @@
     <string name="other_features_that_you_want_to_have">추가하고 싶은 다른 기능</string>
     <string name="thanks_for_feedback">피드백 감사합니다!</string>
     <string name="deliver_better_experience">더 나은 경험을 제공하기 위해 노력하겠습니다.</string>
+    <string name="account">계정</string>
+    <string name="app">앱</string>
+    <string name="display">디스플레이</string>
+    <string name="support">지원</string>
 
 
 </resources> 

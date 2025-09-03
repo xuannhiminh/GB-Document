@@ -452,6 +452,10 @@
     <string name="other_features_that_you_want_to_have">追加してほしい他の機能</string>
     <string name="thanks_for_feedback">ご意見ありがとうございます！</string>
     <string name="deliver_better_experience">より良い体験を提供できるよう努めます。</string>
+    <string name="account">アカウント</string>
+    <string name="app">アプリ</string>
+    <string name="display">ディスプレイ</string>
+    <string name="support">サポート</string>
 
 
 </resources> 

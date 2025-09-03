@@ -538,6 +538,10 @@
     <string name="other_features_that_you_want_to_have">Outros recursos que você deseja ter</string>
     <string name="thanks_for_feedback">Obrigado pelo seu feedback!</string>
     <string name="deliver_better_experience">Nos esforçamos para oferecer uma experiência melhor.</string>
+    <string name="account">Conta</string>
+    <string name="app">Aplicativo</string>
+    <string name="display">Ecrã</string>
+    <string name="support">Suporte</string>
 
 
 </resources>
