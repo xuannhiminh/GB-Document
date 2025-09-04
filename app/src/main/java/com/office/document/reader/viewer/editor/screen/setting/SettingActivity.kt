@@ -95,17 +95,7 @@ class SettingActivity : PdfBaseActivity<ActivitySettingsBinding>() {
         checkFeatureRequestToShowUI()
     }
     override fun initData() {
-        val textView = findViewById<TextView>(R.id.tv_iap_offer)
-        val text = getString(R.string.see_full_offer)
-        val spannable = SpannableString("\uD83D\uDD25\u00A0$text")
 
-//        val drawable = ContextCompat.getDrawable(this, R.drawable.icon_small_fire)
-//        drawable?.setBounds(0, 0, drawable.intrinsicWidth, drawable.intrinsicHeight)
-//
-//        val imageSpan = drawable?.let { ImageSpan(it, ImageSpan.ALIGN_BOTTOM) }
-//        spannable.setSpan(imageSpan, 0, 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE) // đặt ImageSpan tại vị trí 0
-
-        textView.text = spannable
     }
     private fun browserFile() {
         val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
