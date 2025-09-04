@@ -664,7 +664,7 @@
     <string name="detail_office_pro_subscription"><u>Office Pro 订阅详情</u></string>
     <string name="best_value_renew_automatically">最划算 - 自动续订</string>
     <string name="most_popular_renew_automatically">最受欢迎 - 自动续订</string>
-    <string name="_3_days_free_trial">3 天免费试用！</string>
+    <string name="three_days_free_trial">前3天免费 - 之后 %s/年</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/年，免费试用结束后（约 %s/月）</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">永久移除广告，畅享无干扰、优质体验</string>
     <string name="supper_bargain_price_3_99">超值特惠价格：%s</string>
@@ -856,5 +856,9 @@
     <string name="guide_step_keyboard">2. 点击键盘按钮显示键盘并进行编辑</string>
     <string name="guide_step_toolbar">3. 使用工具栏操作文档</string>
     <string name="guide_step_highlight">1. 双击或长按任意文本以选择</string>
+    <string name="billed_montly">按月计费</string>
+    <string name="congrats">恭喜！</string>
+    <string name="congrats_subtext">欢迎加入高级版，\n享受特权</string>
+    <string name="ok_great">好的，太棒了！</string>
 
 </resources> 

@@ -7,12 +7,23 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.LinearGradient
 import android.graphics.Shader
+import android.graphics.Typeface
 import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
+import android.text.SpannableString
+import android.text.Spanned
+import android.text.TextPaint
+import android.text.method.LinkMovementMethod
+import android.text.style.ClickableSpan
+import android.text.style.StyleSpan
 import android.util.Log
 import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.fragment.app.FragmentActivity
 import com.ezteam.baseproject.extensions.hasExtraKeyContaining
@@ -21,6 +32,7 @@ import com.ezteam.baseproject.iapLib.v3.Constants
 import com.ezteam.baseproject.iapLib.v3.PurchaseInfo
 import com.ezteam.baseproject.utils.IAPUtils
 import com.ezteam.baseproject.utils.PreferencesUtils
+import com.ezteam.baseproject.utils.TemporaryStorage
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.nlbn.ads.util.AppOpenManager
 import com.office.document.reader.viewer.editor.R
@@ -78,8 +90,6 @@ class IapActivity : PdfBaseActivity<ActivityIapBinding>() {
         WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightStatusBars = false
         initIAP()
 
-        applyGradientToTitle()
-
         // Ẩn btnClose ban đầu
         binding.btnClose.alpha = 0f
         binding.btnClose.postDelayed({
@@ -89,32 +99,9 @@ class IapActivity : PdfBaseActivity<ActivityIapBinding>() {
         // Chọn gói mặc định
         setSelectedCard(
             binding.btnSubscribeAnnual,
-            binding.endSection,
-            binding.btnSubscribeMonthly,
-            binding.endSectionMonthly
+            binding.btnSubscribeMonthly
         )
-        binding.btnFreeTrial.text = getString(R.string._3_days_free_trial)
-
-        binding.btnFreeTrial.post {
-            val buttonWidth = binding.btnFreeTrial.width
-            val shineView = binding.shineView
-
-            shineView.layoutParams.height = binding.btnFreeTrial.height
-
-            val clipBounds = android.graphics.Rect(0, 0, buttonWidth, binding.btnFreeTrial.height)
-            shineView.clipBounds = clipBounds
-
-            val animator = ObjectAnimator.ofFloat(
-                shineView,
-                "translationX",
-                -shineView.width.toFloat(),
-                buttonWidth.toFloat()
-            )
-            animator.duration = 1250
-            animator.repeatCount = ValueAnimator.INFINITE
-            animator.start()
-        }
-
+        binding.tvFreeTrial.text = getString(R.string.three_days_free_trial)
 
     }
 
@@ -159,7 +146,7 @@ class IapActivity : PdfBaseActivity<ActivityIapBinding>() {
                 // Bind to your UI
                 binding.apply {
                     // e.g. "Yearly: $23.94"
-                    priceDetail.text = getString(R.string.price_annual_note, yearlyPriceText)
+                    subtitle.text = getString(R.string.three_days_free_trial, yearlyPriceText)
                     // e.g. "Monthly: $1.99"
                     price.text = getString(R.string.price_monthly, monthlyPriceText)
                 }
@@ -208,41 +195,6 @@ class IapActivity : PdfBaseActivity<ActivityIapBinding>() {
                 }
             }
 
-    }
-
-    private fun applyGradientToTitle() {
-        binding.tvTitle.post {
-            val width = binding.tvTitle.width
-            if (width > 0) {
-                val shader = LinearGradient(
-                    0f, 0f, width.toFloat(), 0f,
-                    intArrayOf(
-                        Color.parseColor("#F8C83C"),
-                        Color.parseColor("#FE2160")
-                    ),
-                    null,
-                    Shader.TileMode.CLAMP
-                )
-                binding.tvTitle.paint.shader = shader
-                binding.tvTitle.invalidate()
-            }
-        }
-        binding.tvPro.post {
-            val width = binding.tvPro.width
-            if (width > 0) {
-                val shader = LinearGradient(
-                    0f, 0f, width.toFloat(), 0f,
-                    intArrayOf(
-                        Color.parseColor("#FEB743"),
-                        Color.parseColor("#FFB681")
-                    ),
-                    null,
-                    Shader.TileMode.CLAMP
-                )
-                binding.tvPro.paint.shader = shader
-                binding.tvPro.invalidate()
-            }
-        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -320,94 +272,76 @@ class IapActivity : PdfBaseActivity<ActivityIapBinding>() {
         binding.btnSubscribeAnnual.setOnClickListener {
             setSelectedCard(
                 binding.btnSubscribeAnnual,
-                binding.endSection,
-                binding.btnSubscribeMonthly,
-                binding.endSectionMonthly
+                binding.btnSubscribeMonthly
             )
             isAnnualSelected = true
-            binding.btnFreeTrial.text = getString(R.string._3_days_free_trial)
+            binding.tvFreeTrial.text = getString(R.string.three_days_free_trial)
         }
 
         binding.btnSubscribeMonthly.setOnClickListener {
             setSelectedCard(
                 binding.btnSubscribeMonthly,
-                binding.endSectionMonthly,
-                binding.btnSubscribeAnnual,
-                binding.endSection
+                binding.btnSubscribeAnnual
             )
             isAnnualSelected = false
-            binding.btnFreeTrial.text = getString(R.string.continuee)
-        }
-
-        binding.termOfUse.setOnClickListener {
-            TermAndConditionsActivity.start(this)
-        }
-
-        binding.privacyPolicy.setOnClickListener {
-            PolicyActivity.start(this)
+            binding.tvFreeTrial.text = getString(R.string.continuee)
         }
 
         binding.shineFreeTrialContainer.setOnClickListener {
-            if (isAnnualSelected) {
-                showFreeTrialDialog()
-            } else {
-                logEvent("purchase_month_pressed")
-                IAPUtils.callSubscription(this@IapActivity, IAPUtils.KEY_PREMIUM, IAPUtils.KEY_PREMIUM_MONTHLY_PLAN)
-            }
+//            if (isAnnualSelected) {
+//                showFreeTrialDialog()
+//            } else {
+//                logEvent("purchase_month_pressed")
+//                IAPUtils.callSubscription(this@IapActivity, IAPUtils.KEY_PREMIUM, IAPUtils.KEY_PREMIUM_MONTHLY_PLAN)
+//            }
+            IapRegistrationSuccessfulActivity.start(this)
         }
     }
 
     override fun initData() {
-        val borderWidth = 1f.dpToPx(binding.proContainer.context).toInt()
-        val cornerRadius = 8f.dpToPx(binding.proContainer.context)
 
-        // Create gradient border drawable (red -> yellow)
-        val borderDrawable = GradientDrawable(
-            GradientDrawable.Orientation.TOP_BOTTOM,
-            intArrayOf(
-                Color.parseColor("#99FEA745"),
-                Color.parseColor("#00FFFFFF")
-            )
-        ).apply {
-            this.cornerRadius = cornerRadius
+        val fullText = getString(R.string.terms_privacy_text)
+        val terms = getString(R.string.terms_and_service)
+        val privacy = getString(R.string.privacy_policy)
+
+        val spannable = SpannableString(fullText)
+
+        val termsStart = fullText.indexOf(terms)
+        if (termsStart >= 0) {
+            spannable.setSpan(object : ClickableSpan() {
+                override fun onClick(widget: View) {
+                    TermAndConditionsActivity.start(this@IapActivity)
+                }
+
+                override fun updateDrawState(ds: TextPaint) {
+                    super.updateDrawState(ds)
+                    ds.color = Color.parseColor("#FFC107")
+                    ds.isUnderlineText = false
+                }
+            }, termsStart, termsStart + terms.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            spannable.setSpan(StyleSpan(Typeface.BOLD), termsStart, termsStart + terms.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         }
 
-        val innerDrawable = GradientDrawable(
-            GradientDrawable.Orientation.TOP_BOTTOM,
-            intArrayOf(
-                Color.parseColor("#CC302318"),
-                Color.parseColor("#00FFFFFF")
-            )
-        ).apply {
-            this.cornerRadius = cornerRadius
+        val privacyStart = fullText.indexOf(privacy)
+        if (privacyStart >= 0) {
+            spannable.setSpan(object : ClickableSpan() {
+                override fun onClick(widget: View) {
+                    PolicyActivity.start(this@IapActivity)
+                }
+
+                override fun updateDrawState(ds: TextPaint) {
+                    super.updateDrawState(ds)
+                    ds.color = Color.parseColor("#FFC107")
+                    ds.isUnderlineText = false
+                }
+            }, privacyStart, privacyStart + privacy.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            spannable.setSpan(StyleSpan(Typeface.BOLD), privacyStart, privacyStart + privacy.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         }
 
-        val layerDrawable = LayerDrawable(arrayOf(borderDrawable, innerDrawable)).apply {
-            // Inset innerDrawable to create visible border
-            setLayerInset(1, borderWidth, borderWidth, borderWidth, borderWidth)
-        }
-        // Apply backgrounds
-        binding.proContainer.background = layerDrawable
+        binding.textCancelAnytime.text = spannable
+        binding.textCancelAnytime.movementMethod = LinkMovementMethod.getInstance()
+        binding.textCancelAnytime.highlightColor = Color.TRANSPARENT
 
-        val borderWidth2 = 1f.dpToPx(binding.btnRestore.context).toInt()
-        val cornerRadius2 = 27f.dpToPx(binding.btnRestore.context)
-
-        val borderDrawable2 = GradientDrawable().apply {
-            this.setColor(Color.parseColor("#99FFFFFF"))
-            this.cornerRadius = cornerRadius2 - borderWidth2
-        }
-
-        val innerDrawable2 = GradientDrawable().apply {
-            this.setColor(Color.parseColor("#4D3946"))
-            this.cornerRadius = cornerRadius2 - borderWidth2
-        }
-
-        val layerDrawable2 = LayerDrawable(arrayOf(borderDrawable2, innerDrawable2)).apply {
-            // Inset innerDrawable to create visible border
-            setLayerInset(1, borderWidth2, borderWidth2, borderWidth2, borderWidth2)
-        }
-        // Apply backgrounds
-        binding.btnRestore.background = layerDrawable2
     }
 
     override fun onStart() {
@@ -416,6 +350,34 @@ class IapActivity : PdfBaseActivity<ActivityIapBinding>() {
 
     override fun onResume() {
         super.onResume()
+        //checkNightModeState()
+    }
+    private fun checkNightModeState() {
+        if (TemporaryStorage.isNightMode) {
+            findViewById<View>(R.id.iap_container).setBackgroundResource(R.drawable.background_iap_night)
+            findViewById<View>(R.id.featureSection).setBackgroundResource(R.drawable.bg_feature_section_night)
+            replaceIcons(binding.featureSection, R.drawable.icon_check_pro_night, R.drawable.icon_close_basic_night)
+        } else {
+            findViewById<View>(R.id.iap_container).setBackgroundResource(R.drawable.background_iap)
+            findViewById<View>(R.id.featureSection).setBackgroundResource(R.drawable.bg_feature_section)
+            replaceIcons(binding.featureSection, R.drawable.icon_check_pro, R.drawable.icon_close_basic)
+        }
+    }
+
+    private fun replaceIcons(container: ViewGroup, checkIcon: Int, closeIcon: Int) {
+        for (i in 0 until container.childCount) {
+            val child = container.getChildAt(i)
+            if (child is ViewGroup) {
+                replaceIcons(child, checkIcon, closeIcon)
+            } else if (child is ImageView) {
+                val tag = child.tag
+                if (tag == "check") {
+                    child.setImageResource(checkIcon)
+                } else if (tag == "close") {
+                    child.setImageResource(closeIcon)
+                }
+            }
+        }
     }
 
     override fun onStop() {

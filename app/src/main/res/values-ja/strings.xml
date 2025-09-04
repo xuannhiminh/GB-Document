@@ -456,6 +456,10 @@
     <string name="app">アプリ</string>
     <string name="display">ディスプレイ</string>
     <string name="support">サポート</string>
+    <string name="free_and_premium">無料 &amp; プレミアム</string>
+    <string name="terms_privacy_text">この注文を行うことで、利用規約とプライバシーポリシーに同意したことになります。現在の期間が終了する少なくとも24時間前に自動更新をオフにしない限り、サブスクリプションは自動的に更新されます。</string>
+    <string name="discount">33% 割引</string>
+    <string name="terms_and_service">利用規約</string>
 
 
 </resources> 

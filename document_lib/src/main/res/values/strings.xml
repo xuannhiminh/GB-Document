@@ -719,7 +719,7 @@ Customer: %s"</string>
     <string name="detail_office_pro_subscription"><u>Detail Office Pro Subscription</u></string>
     <string name="best_value_renew_automatically">Best Value - Renew Automatically</string>
     <string name="most_popular_renew_automatically">Most Popular - Renew Automatically</string>
-    <string name="_3_days_free_trial">3-Days Free Trial!</string>
+    <string name="three_days_free_trial">First 3 days free - Then %s/Year</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/Year after the free trial ends (~%s/Month)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Remove ads permanently to be un-interruption and have a good experience</string>
     <string name="supper_bargain_price_3_99">Supper bargain price: %s</string>
@@ -914,5 +914,10 @@ Customer: %s"</string>
     <string name="guide_step_toolbar">3. Use the toolbar to work with the document</string>
     <string name="guide_step_highlight">1. Double click or long press at any texts to select</string>
     <string name="guide_step_highlight_2">2. Press button highlight to highlight</string>
+    <string name="billed_montly">Billed Montly</string>
+    <string name="start_three_days_free_trial">Start 3-days free trial</string>
+    <string name="congrats">Congrats!</string>
+    <string name="congrats_subtext">Welcome to Premium,\n enjoy the benefits</string>
+    <string name="ok_great">Ok, Great!</string>
 
 </resources>

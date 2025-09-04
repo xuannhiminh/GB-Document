@@ -671,7 +671,7 @@
     <string name="detail_office_pro_subscription"><u> विस्तार कार्यालय प्रो सदस्यता</u>  </string>
     <string name="best_value_renew_automatically">सर्वोत्तम मूल्य - स्वचालित रूप से नवीनीकृत करें</string>
     <string name="most_popular_renew_automatically">सर्वाधिक लोकप्रिय - स्वचालित रूप से नवीनीकृत करें</string>
-    <string name="_3_days_free_trial">3-दिनों का निःशुल्क परीक्षण!</string>
+    <string name="three_days_free_trial">पहले 3 दिन मुफ्त - फिर %s/वर्ष</string>
     <string name="_price_year_after_free_trial_ends_price2_month">नि:शुल्क परीक्षण समाप्त होने के बाद %s/वर्ष (~%s/माह)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">बिना रुकावट के विज्ञापनों को स्थायी रूप से हटा दें और एक अच्छा अनुभव प्राप्त करें</string>
     <string name="supper_bargain_price_3_99">सपर बार्गेन मूल्य: %s</string>
@@ -862,5 +862,9 @@
     <string name="guide_step_toolbar">3. दस्तावेज़ के साथ कार्य करने के लिए टूलबार का उपयोग करें</string>
     <string name="guide_step_highlight">1. किसी भी टेक्स्ट का चयन करने के लिए डबल क्लिक करें या लंबे समय तक दबाएँ</string>
     <string name="guide_step_highlight_2">2. हाइलाइट करने के लिए हाइलाइट बटन दबाएँ</string>
+    <string name="billed_montly">मासिक बिल किया जाएगा</string>
+    <string name="congrats">बधाई हो!</string>
+    <string name="congrats_subtext">प्रीमियम में आपका स्वागत है,\n लाभों का आनंद लें</string>
+    <string name="ok_great">ठीक है, बढ़िया!</string>
 
 </resources>

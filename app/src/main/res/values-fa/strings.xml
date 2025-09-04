@@ -458,6 +458,10 @@
     <string name="app">برنامه</string>
     <string name="display">نمایش</string>
     <string name="support">پشتیبانی</string>
+    <string name="free_and_premium">رایگان &amp; پرمیوم</string>
+    <string name="terms_privacy_text">با ثبت این سفارش، شما با شرایط خدمات و سیاست حفظ حریم خصوصی موافقت می‌کنید. اشتراک به‌طور خودکار تمدید می‌شود مگر اینکه تمدید خودکار حداقل ۲۴ ساعت قبل از پایان دوره فعلی غیرفعال شود.</string>
+    <string name="discount">۳۳٪ صرفه‌جویی کنید</string>
+    <string name="terms_and_service">شرایط خدمات</string>
 
 
 </resources> 

@@ -662,7 +662,7 @@
     <string name="detail_office_pro_subscription"><u>Деталі підписки Office Pro</u></string>
     <string name="best_value_renew_automatically">Найкраща ціна — Автоматичне поновлення</string>
     <string name="most_popular_renew_automatically">Найпопулярніше — Автоматичне поновлення</string>
-    <string name="_3_days_free_trial">3 дні безкоштовної пробної версії!</string>
+    <string name="three_days_free_trial">Перші 3 дні безкоштовно - Потім %s/рік</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/рік після завершення пробної версії (~%s/місяць)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Назавжди видаліть рекламу для комфортного користування</string>
     <string name="supper_bargain_price_3_99">Супервигідна ціна: %s</string>
@@ -851,5 +851,9 @@
     <string name="guide_step_keyboard">2. Натисніть кнопку клавіатури, щоб відобразити її та редагувати</string>
     <string name="guide_step_toolbar">3. Використовуйте панель інструментів для роботи з документом</string>
     <string name="guide_step_highlight">1. двічі клацніть або довго натискайте на текст, щоб вибрати</string>
+    <string name="billed_montly">Щомісяця виставляється рахунок</string>
+    <string name="congrats">Вітаємо!</string>
+    <string name="congrats_subtext">Ласкаво просимо до Premium,\n насолоджуйтесь перевагами</string>
+    <string name="ok_great">Гаразд, чудово!</string>
 
 </resources> 

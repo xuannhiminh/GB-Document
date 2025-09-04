@@ -461,6 +461,10 @@
     <string name="app">App</string>
     <string name="display">Display</string>
     <string name="support">Supporto</string>
+    <string name="free_and_premium">Gratis &amp; Premium</string>
+    <string name="terms_privacy_text">Effettuando questo ordine, accetti i Termini di servizio e l’Informativa sulla privacy. L’abbonamento si rinnova automaticamente a meno che il rinnovo automatico non venga disattivato almeno 24 ore prima della fine del periodo in corso.</string>
+    <string name="discount">Risparmia 33%</string>
+    <string name="terms_and_service">Termini di servizio</string>
 
 
 </resources> 

@@ -461,6 +461,10 @@
     <string name="app">App</string>
     <string name="display">Weergave</string>
     <string name="support">Ondersteuning</string>
+    <string name="free_and_premium">Gratis &amp; Premium</string>
+    <string name="terms_privacy_text">Door deze bestelling te plaatsen, gaat u akkoord met de Servicevoorwaarden en het Privacybeleid. Het abonnement wordt automatisch verlengd tenzij automatisch verlengen ten minste 24 uur vóór het einde van de huidige periode wordt uitgeschakeld.</string>
+    <string name="discount">Bespaar 33%</string>
+    <string name="terms_and_service">Servicevoorwaarden</string>
 
 
 </resources> 

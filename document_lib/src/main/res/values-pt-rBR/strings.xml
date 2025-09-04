@@ -671,7 +671,7 @@ Cliente: %s"</string>
     <string name="detail_office_pro_subscription"><u>Detalhe a assinatura do Office Pro</u></string>
     <string name="best_value_renew_automatically">Melhor valor - renovar automaticamente</string>
     <string name="most_popular_renew_automatically">Mais popular - Renovar automaticamente</string>
-    <string name="_3_days_free_trial">3 dias de teste gratuito!</string>
+    <string name="three_days_free_trial">Primeiros 3 dias grátis - Depois %s/ano</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/ano após o término da avaliação gratuita (~%s/mês)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Remova anúncios permanentemente para não interromper e ter uma boa experiência</string>
     <string name="supper_bargain_price_3_99">Preço de pechincha do jantar: %s</string>
@@ -863,5 +863,9 @@ Cliente: %s"</string>
     <string name="guide_step_keyboard">2. Toque no botão do teclado para exibir o teclado e editar</string>
     <string name="guide_step_toolbar">3. Use a barra de ferramentas para manipular o documento</string>
     <string name="guide_step_highlight">1. Clique duplo ou pressione longamente qualquer texto para selecionar</string>
+    <string name="billed_montly">Cobrado mensalmente</string>
+    <string name="congrats">Parabéns!</string>
+    <string name="congrats_subtext">Bem-vindo ao Premium,\n aproveite os benefícios</string>
+    <string name="ok_great">Ok, incrível!</string>
 
 </resources>

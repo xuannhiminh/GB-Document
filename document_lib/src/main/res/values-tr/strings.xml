@@ -671,7 +671,7 @@ Müşteri: %s"</string>
     <string name="detail_office_pro_subscription"><u> Detay Office Pro Aboneliği</u>  </string>
     <string name="best_value_renew_automatically">En İyi Değer - Otomatik Olarak Yenile</string>
     <string name="most_popular_renew_automatically">En Popüler - Otomatik Olarak Yenile</string>
-    <string name="_3_days_free_trial">3 Günlük Ücretsiz Deneme!</string>
+    <string name="three_days_free_trial">İlk 3 gün ücretsiz - Sonra %s/yıl</string>
     <string name="_price_year_after_free_trial_ends_price2_month">Ücretsiz deneme sona erdikten sonra %s/Yıl (~%s/Ay)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Kesintisiz olmak ve iyi bir deneyim yaşamak için reklamları kalıcı olarak kaldırın</string>
     <string name="supper_bargain_price_3_99">Akşam yemeği pazarlık fiyatı: %s</string>
@@ -862,5 +862,9 @@ Müşteri: %s"</string>
     <string name="guide_step_toolbar">3. Belgeyi düzenlemek için araç çubuğunu kullanın</string>
     <string name="guide_step_highlight">1. Bir metni seçmek için çift tıklayın veya uzun basın</string>
     <string name="guide_step_highlight_2">2. Vurgulamak için vurgula düğmesine bas</string>
+    <string name="billed_montly">Aylık faturalandırılır</string>
+    <string name="congrats">Tebrikler!</string>
+    <string name="congrats_subtext">Premium\'a hoş geldiniz,\n avantajların tadını çıkarın</string>
+    <string name="ok_great">Tamam, harika!</string>
 
 </resources>

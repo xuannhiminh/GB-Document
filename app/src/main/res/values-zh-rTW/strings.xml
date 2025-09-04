@@ -437,5 +437,9 @@
     <string name="app">應用程式</string>
     <string name="display">顯示</string>
     <string name="support">支援</string>
+    <string name="free_and_premium">免費 &amp; 高級版</string>
+    <string name="terms_privacy_text">下此訂單即表示您同意服務條款和隱私權政策。除非在當前週期結束前至少24小時關閉自動續訂，否則訂閱將自動續訂。</string>
+    <string name="discount">節省33%</string>
+    <string name="terms_and_service">服務條款</string>
 
 </resources> 

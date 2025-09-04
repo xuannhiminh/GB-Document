@@ -542,7 +542,10 @@
     <string name="app">Приложение</string>
     <string name="display">Дисплей</string>
     <string name="support">Поддержка</string>
-
+    <string name="free_and_premium">Бесплатно &amp; Премиум</string>
+    <string name="terms_privacy_text">Размещая этот заказ, вы соглашаетесь с Условиями обслуживания и Политика конфиденциальности. Подписка автоматически продлевается, если автопродление не отключено как минимум за 24 часа до окончания текущего периода.</string>
+    <string name="discount">Экономьте 33%</string>
+    <string name="terms_and_service">Условиями обслуживания</string>
 
 
 </resources>

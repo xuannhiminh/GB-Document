@@ -671,7 +671,7 @@
     <string name="detail_office_pro_subscription"><u> 세부 사항 Office Pro 구독</u>  </string>
     <string name="best_value_renew_automatically">최고의 가치 - 자동 갱신</string>
     <string name="most_popular_renew_automatically">가장 인기 있는 - 자동 갱신</string>
-    <string name="_3_days_free_trial">3일 무료 평가판!</string>
+    <string name="three_days_free_trial">처음 3일 무료 - 이후 %s/년</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/무료 평가판이 종료된 후 연도(~%s/월)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">중단 없이 광고를 영구적으로 제거하고 좋은 경험을 하십시오.</string>
     <string name="supper_bargain_price_3_99">만찬 할인 가격: %s</string>
@@ -862,5 +862,9 @@
     <string name="guide_step_toolbar">3. 도구 모음을 사용하여 문서를 조작하세요</string>
     <string name="guide_step_highlight">1. 텍스트를 선택하려면 더블 클릭하거나 길게 누르세요</string>
     <string name="guide_step_highlight_2">2. 하이라이트하려면 하이라이트 버튼을 누르세요</string>
+    <string name="billed_montly">매월 청구됨</string>
+    <string name="congrats">축하합니다!</string>
+    <string name="congrats_subtext">프리미엄에 오신 것을 환영합니다,\n혜택을 즐기세요</string>
+    <string name="ok_great">좋아, 멋져!</string>
 
 </resources>

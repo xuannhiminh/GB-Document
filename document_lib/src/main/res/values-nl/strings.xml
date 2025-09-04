@@ -665,7 +665,7 @@ Je kunt de balk scrollen om te zien wat verborgen is."</string>
     <string name="detail_office_pro_subscription"><u>Details Office Pro-abonnement</u></string>
     <string name="best_value_renew_automatically">Beste prijs - Automatisch verlengen</string>
     <string name="most_popular_renew_automatically">Meest populair - Automatisch verlengen</string>
-    <string name="_3_days_free_trial">3 dagen gratis proefperiode!</string>
+    <string name="three_days_free_trial">Eerste 3 dagen gratis - Daarna %s/jaar</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/jaar na het einde van de proefperiode (~%s/maand)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Verwijder advertenties permanent voor een ononderbroken en prettige ervaring</string>
     <string name="supper_bargain_price_3_99">Superaanbieding: %s</string>
@@ -854,5 +854,9 @@ Je kunt de balk scrollen om te zien wat verborgen is."</string>
     <string name="guide_step_keyboard">2. Druk op de toetsenbordknop om het toetsenbord weer te geven en te bewerken</string>
     <string name="guide_step_toolbar">3. Gebruik de werkbalk om het document te bewerken</string>
     <string name="guide_step_highlight">1. Dubbelklik of houd lang ingedrukt op een tekst om te selecteren</string>
+    <string name="billed_montly">Maandelijks gefactureerd</string>
+    <string name="congrats">Gefeliciteerd!</string>
+    <string name="congrats_subtext">Welkom bij Premium,\n geniet van de voordelen</string>
+    <string name="ok_great">Oké, geweldig!</string>
 
 </resources> 

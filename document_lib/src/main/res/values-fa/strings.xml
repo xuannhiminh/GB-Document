@@ -685,7 +685,7 @@
     <string name="detail_office_pro_subscription"><u>جزئیات اشتراک Office Pro</u></string>
     <string name="best_value_renew_automatically">بهترین ارزش - تمدید خودکار</string>
     <string name="most_popular_renew_automatically">محبوب‌ترین - تمدید خودکار</string>
-    <string name="_3_days_free_trial">۳ روز آزمایشی رایگان!</string>
+    <string name="three_days_free_trial">۳ روز اول رایگان - سپس %s/سال</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/سال پس از پایان دوره آزمایشی (~%s/ماه)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">برای تجربه‌ای بدون وقفه، تبلیغات را برای همیشه حذف کنید</string>
     <string name="supper_bargain_price_3_99">قیمت فوق‌العاده: %s</string>
@@ -876,6 +876,10 @@
     <string name="guide_step_document">1. برای شروع ویرایش یا مشاهده، روی ناحیه سند ضربه بزنید</string>
     <string name="guide_step_keyboard">2. دکمه صفحه‌کلید را برای نمایش و ویرایش فشار دهید</string>
     <string name="guide_step_toolbar">3. از نوار ابزار برای کار با سند استفاده کنید</string>
+    <string name="billed_montly">صورتحساب ماهانه</string>
+    <string name="congrats">تبریک!</string>
+    <string name="congrats_subtext">به پرمیوم خوش آمدید،\nاز مزایا لذت ببرید</string>
+    <string name="ok_great">باشه، عالیه!</string>
 
 
 </resources> 

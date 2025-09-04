@@ -666,7 +666,7 @@
     <string name="detail_office_pro_subscription"><u>Office Pro 訂閱詳情</u></string>
     <string name="best_value_renew_automatically">最佳價值 - 自動續訂</string>
     <string name="most_popular_renew_automatically">最受歡迎 - 自動續訂</string>
-    <string name="_3_days_free_trial">3 天免費試用！</string>
+    <string name="three_days_free_trial">前3天免費 - 之後 %s/年</string>
     <string name="_price_year_after_free_trial_ends_price2_month">免費試用後每年 %s（約每月 %s）</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">永久移除廣告，享受無干擾的良好體驗</string>
     <string name="supper_bargain_price_3_99">超值價格：%s</string>
@@ -858,5 +858,9 @@
     <string name="guide_step_keyboard">2. 點擊鍵盤按鈕顯示鍵盤並編輯</string>
     <string name="guide_step_toolbar">3. 使用工具列操作文件</string>
     <string name="guide_step_highlight">1. 雙擊或長按任何文字以選擇</string>
+    <string name="billed_montly">每月收費</string>
+    <string name="congrats">恭喜！</string>
+    <string name="congrats_subtext">歡迎使用高級版，\n享受優惠</string>
+    <string name="ok_great">好的，太棒了！</string>
 
 </resources> 

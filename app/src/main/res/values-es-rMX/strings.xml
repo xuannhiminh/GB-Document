@@ -540,6 +540,10 @@
     <string name="app">Aplicación</string>
     <string name="display">Pantalla</string>
     <string name="support">Soporte</string>
+    <string name="free_and_premium">Gratis &amp; Premium</string>
+    <string name="terms_privacy_text">Al realizar este pedido, aceptas los Términos de servicio y la Política de privacidad. La suscripción se renueva automáticamente a menos que desactives la renovación automática al menos 24 horas antes de que finalice el período actual.</string>
+    <string name="discount">Ahorra 33%</string>
+    <string name="terms_and_service">Términos de servicio</string>
 
 
 </resources>

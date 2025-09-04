@@ -564,7 +564,7 @@
     <string name="feature_sign_documents">Sign Documents</string>
     <string name="feature_add_images">Add Images to PDF</string>
     <string name="feature_scan_pdf">Scan to PDF</string>
-    <string name="feature_mark_annotate">Mark Up or Annotate</string>
+    <string name="feature_mark_annotate">Mark Up &amp; Annotate</string>
     <string name="feature_read_all_format">Read All Format</string>
     <string name="plan_pro">Pro</string>
     <string name="plan_basic">Basic</string>
@@ -627,5 +627,10 @@
     <string name="app">App</string>
     <string name="display">Display</string>
     <string name="support">Support</string>
+    <string name="free_and_premium">Free &amp; Premium</string>
+    <string name="terms_privacy_text">By placing this order, you agree to the Terms of Service and Privacy Policy. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period.</string>
+    <string name="discount">Save 33%</string>
+    <string name="terms_and_service">Terms of Service</string>
+
 
 </resources>

@@ -545,6 +545,10 @@
     <string name="app">Uygulama</string>
     <string name="display">Görüntü</string>
     <string name="support">Destek</string>
+    <string name="free_and_premium">Ücretsiz &amp; Premium</string>
+    <string name="terms_privacy_text">Bu siparişi vererek, Hizmet Şartları ve Gizlilik Politikası kabul etmiş olursunuz. Mevcut dönem bitiminden en az 24 saat önce otomatik yenileme kapatılmadıkça abonelik otomatik olarak yenilenir.</string>
+    <string name="discount">%33 tasarruf edin</string>
+    <string name="terms_and_service">Hizmet Şartları</string>
 
 
 </resources>

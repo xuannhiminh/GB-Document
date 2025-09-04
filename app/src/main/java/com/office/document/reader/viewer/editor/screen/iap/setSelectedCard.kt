@@ -13,85 +13,43 @@ import androidx.cardview.widget.CardView
 
 fun setSelectedCard(
     selectedCard: CardView,
-    endSection: LinearLayout,
-    otherCard: CardView,
-    otherEndSection: LinearLayout
+    otherCard: CardView
 ) {
-    Log.d("setSelectedCard", "Setting selected card with endSection: ${endSection.id}")
-
     val borderWidth = 1f.dpToPx(selectedCard.context).toInt()
-    val cornerRadius = 12f.dpToPx(selectedCard.context)
+    val cornerRadius = 16f.dpToPx(selectedCard.context)
 
-    // Create gradient border drawable (red -> yellow)
+    // Gradient border (FB9400 -> FFAB38)
     val borderDrawable = GradientDrawable(
         GradientDrawable.Orientation.LEFT_RIGHT,
         intArrayOf(
-            Color.parseColor("#F8C83C"),
-            Color.parseColor("#FE2160")
+            Color.parseColor("#FB9400"),
+            Color.parseColor("#FFAB38")
         )
     ).apply {
         this.cornerRadius = cornerRadius
     }
 
-    // Inner drawable (background with #33FFFFFF)
+    // Inner background (không đổi, chỉ nền phẳng)
     val innerDrawable = GradientDrawable().apply {
-        this.setColor(Color.parseColor("#4D3946"))
+        setColor(Color.parseColor("#4D3946")) // nền cũ
         this.cornerRadius = cornerRadius - borderWidth
     }
 
     val layerDrawable = LayerDrawable(arrayOf(borderDrawable, innerDrawable)).apply {
-        // Inset innerDrawable to create visible border
+        // Inset innerDrawable để lộ viền
         setLayerInset(1, borderWidth, borderWidth, borderWidth, borderWidth)
     }
 
     val unselectedBackground = GradientDrawable().apply {
         this.cornerRadius = cornerRadius
-        setColor(Color.parseColor("#4D3946"))
+        setColor(Color.parseColor("#4D3946")) // nền phẳng
     }
 
-    // Apply backgrounds
+    // Gán background
     selectedCard.background = layerDrawable
     otherCard.background = unselectedBackground
-
-    // Apply gradient shader to all TextView in selected end section
-    Handler(Looper.getMainLooper()).postDelayed({
-        endSection.post {
-            val width = endSection.width
-            if (width > 0) {
-                val gradientShader = LinearGradient(
-                    0f, 0f, width.toFloat(), 0f, // horizontal gradient
-                    intArrayOf(
-                        Color.parseColor("#F8C83C"),
-                        Color.parseColor("#FE2160")
-                    ),
-                    null,
-                    Shader.TileMode.CLAMP
-                )
-                for (i in 0 until endSection.childCount) {
-                    val child = endSection.getChildAt(i)
-                    if (child is TextView) {
-                        child.paint.shader = gradientShader
-                        child.invalidate()
-                    }
-                }
-            }
-        }
-    }, 50)
-
-    // Reset other end section text color
-    Handler(Looper.getMainLooper()).postDelayed({
-        otherEndSection.post {
-            for (i in 0 until otherEndSection.childCount) {
-                val child = otherEndSection.getChildAt(i)
-                if (child is TextView) {
-                    child.paint.shader = null
-                    child.setTextColor(Color.WHITE)
-                    child.invalidate()
-                }
-            }
-        }
-    }, 50)
 }
+
 
 // Extension function: convert dp to px
 fun Float.dpToPx(context: Context): Float {

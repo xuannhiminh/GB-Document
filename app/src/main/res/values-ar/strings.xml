@@ -538,6 +538,9 @@
     <string name="app">التطبيق</string>
     <string name="display">العرض</string>
     <string name="support">الدعم</string>
-
+    <string name="free_and_premium">مجاني &amp; بريميوم</string>
+    <string name="terms_privacy_text">بوضع هذا الطلب، فإنك توافق على شروط الخدمة سياسة خاصة. يتم تجديد الاشتراك تلقائيًا ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة على الأقل من نهاية الفترة الحالية.</string>
+    <string name="discount">وفّر 33٪</string>
+    <string name="terms_and_service">شروط الخدمة</string>
 
 </resources>

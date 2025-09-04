@@ -457,6 +457,10 @@
     <string name="app">앱</string>
     <string name="display">디스플레이</string>
     <string name="support">지원</string>
+    <string name="free_and_premium">무료 &amp; 프리미엄</string>
+    <string name="terms_privacy_text">이 주문을 하면 서비스 약관과 개인정보 보호정책에 동의하는 것입니다. 현재 기간이 끝나기 최소 24시간 전에 자동 갱신을 해제하지 않으면 구독이 자동으로 갱신됩니다.</string>
+    <string name="discount">33% 절약</string>
+    <string name="terms_and_service">서비스 약관</string>
 
 
 </resources> 

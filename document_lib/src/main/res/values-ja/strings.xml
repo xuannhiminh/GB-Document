@@ -672,7 +672,7 @@ ANDLINE」</string>
     <string name="detail_office_pro_subscription"><u> 詳細OfficeProサブスクリプション</u>  </string>
     <string name="best_value_renew_automatically">最高の価値-自動的に更新</string>
     <string name="most_popular_renew_automatically">最も人気のある-自動的に更新</string>
-    <string name="_3_days_free_trial">3日間の無料トライアル！</string>
+    <string name="three_days_free_trial">最初の3日間は無料 - その後 %s/年</string>
     <string name="_price_year_after_free_trial_ends_price2_month">％s /無料トライアル終了後の年（〜％s /月）</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">中断することなく、優れたエクスペリエンスを実現するために、広告を完全に削除します</string>
     <string name="supper_bargain_price_3_99">夕食のお買い得価格：％s</string>
@@ -863,5 +863,9 @@ ANDLINE」</string>
     <string name="guide_step_toolbar">3. ツールバーを使ってドキュメントを操作してください</string>
     <string name="guide_step_highlight">1. テキストを選択するにはダブルクリックまたは長押ししてください</string>
     <string name="guide_step_highlight_2">2. ハイライトするにはハイライトボタンを押してください</string>
+    <string name="billed_montly">毎月請求</string>
+    <string name="congrats">おめでとう！</string>
+    <string name="congrats_subtext">プレミアムへようこそ、\n特典をお楽しみください</string>
+    <string name="ok_great">OK、素晴らしい！</string>
 
 </resources>

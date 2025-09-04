@@ -671,7 +671,7 @@ Pelanggan: %s"</string>
     <string name="detail_office_pro_subscription"><u> Detail Langganan Office Pro</u>  </string>
     <string name="best_value_renew_automatically">Nilai Terbaik - Perbarui Secara Otomatis</string>
     <string name="most_popular_renew_automatically">Paling Populer - Perbarui Secara Otomatis</string>
-    <string name="_3_days_free_trial">Uji Coba Gratis 3 Hari!</string>
+    <string name="three_days_free_trial">3 hari pertama gratis - Lalu %s/tahun</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/Tahun setelah uji coba gratis berakhir (~%s/Bulan)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Hapus iklan secara permanen agar tidak terganggu dan dapatkan pengalaman yang baik</string>
     <string name="supper_bargain_price_3_99">Harga murah makan malam: %s</string>
@@ -862,5 +862,9 @@ Pelanggan: %s"</string>
     <string name="guide_step_toolbar">3. Gunakan toolbar untuk mengelola dokumen</string>
     <string name="guide_step_highlight">1. Klik ganda atau tekan lama pada teks untuk memilih</string>
     <string name="guide_step_highlight_2">2. Tekan tombol highlight untuk menyorot</string>
+    <string name="billed_montly">Ditagih setiap bulan</string>
+    <string name="congrats">Selamat!</string>
+    <string name="congrats_subtext">Selamat datang di Premium,\n nikmati manfaatnya</string>
+    <string name="ok_great">Oke, hebat!</string>
 
 </resources>

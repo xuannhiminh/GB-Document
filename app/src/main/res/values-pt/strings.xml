@@ -542,6 +542,10 @@
     <string name="app">Aplicativo</string>
     <string name="display">Ecrã</string>
     <string name="support">Suporte</string>
+    <string name="free_and_premium">Grátis &amp; Premium</string>
+    <string name="terms_privacy_text">Ao fazer este pedido, você concorda com os Termos de Serviço e a Política de Privacidade. A assinatura é renovada automaticamente, a menos que a renovação automática seja desativada pelo menos 24 horas antes do final do período atual.</string>
+    <string name="discount">Poupe 33%</string>
+    <string name="terms_and_service">Termos de serviço</string>
 
 
 </resources>

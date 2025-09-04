@@ -671,7 +671,7 @@ Khách hàng: %s "</string>
     <string name="detail_office_pro_subscription"><u> Chi tiết Đăng ký Office Pro</u>  </string>
     <string name="best_value_renew_automatically">Giá trị tốt nhất - Tự động gia hạn</string>
     <string name="most_popular_renew_automatically">Phổ biến nhất - Tự động gia hạn</string>
-    <string name="_3_days_free_trial">Dùng thử miễn phí 3 ngày!</string>
+    <string name="three_days_free_trial">3 ngày đầu miễn phí - Sau đó %s/năm</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s /Năm sau khi thời gian dùng thử miễn phí kết thúc (~ %s /Tháng)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Xóa quảng cáo vĩnh viễn để không bị gián đoạn và có trải nghiệm tốt</string>
     <string name="supper_bargain_price_3_99">Bữa tối giá hời: %s</string>
@@ -863,5 +863,9 @@ Khách hàng: %s "</string>
     <string name="guide_step_toolbar">3. Sử dụng thanh công cụ để thao tác với tài liệu</string>
     <string name="guide_step_highlight">1. Bấm 2 lần hoặc nhấn giữ vào bất kỳ văn bản nào để chọn</string>
     <string name="guide_step_highlight_2">2. Bấm vào nút Tô sáng để tô sáng</string>
+    <string name="billed_montly">Thanh toán hàng tháng</string>
+    <string name="congrats">Chúc mừng!</string>
+    <string name="congrats_subtext">Chào mừng đến với Premium,\n hãy tận hưởng các lợi ích</string>
+    <string name="ok_great">Ok, tuyệt vời!</string>
 
 </resources>

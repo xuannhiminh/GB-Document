@@ -49,4 +49,6 @@
     <color name="bg_selected">#FFF5F7</color>
     <color name="stroke_unselected">#F3F4F6</color>
     <color name="bg_unselected">#FFFFFF</color>
+    <color name="input2">#99A2B3</color>
+    <color name="input3">#EAF4FC</color>
 </resources>

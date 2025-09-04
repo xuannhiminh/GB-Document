@@ -662,7 +662,7 @@ Usa Office su un computer per convertire il file in un formato più recente."</s
     <string name="detail_office_pro_subscription"><u>Dettagli abbonamento Office Pro</u></string>
     <string name="best_value_renew_automatically">Miglior valore - Rinnovo automatico</string>
     <string name="most_popular_renew_automatically">Il più popolare - Rinnovo automatico</string>
-    <string name="_3_days_free_trial">Prova gratuita di 3 giorni!</string>
+    <string name="three_days_free_trial">Primi 3 giorni gratis - Poi %s/anno</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/anno dopo la fine della prova gratuita (~%s/mese)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Rimuovi le pubblicità permanentemente per un\'esperienza senza interruzioni</string>
     <string name="supper_bargain_price_3_99">Prezzo super conveniente: %s</string>
@@ -851,6 +851,10 @@ Usa Office su un computer per convertire il file in un formato più recente."</s
     <string name="guide_step_keyboard">2. Premi il pulsante della tastiera per visualizzarla e modificare</string>
     <string name="guide_step_toolbar">3. Usa la barra degli strumenti per lavorare sul documento</string>
     <string name="guide_step_highlight">1. Fai doppio clic o tieni premuto su un testo per selezionarlo</string>
+    <string name="billed_montly">Fatturato mensilmente</string>
+    <string name="congrats">Congratulazioni!</string>
+    <string name="congrats_subtext">Benvenuto a Premium,\n goditi i vantaggi</string>
+    <string name="ok_great">Ok, fantastico!</string>
 
 
 </resources>

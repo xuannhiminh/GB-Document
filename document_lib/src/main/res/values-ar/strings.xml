@@ -670,7 +670,7 @@
     <string name="detail_office_pro_subscription"><u> التفاصيل اشتراك Office Pro</u>  </string>
     <string name="best_value_renew_automatically">أفضل قيمة - التجديد تلقائيًا</string>
     <string name="most_popular_renew_automatically">الأكثر شيوعًا - التجديد تلقائيًا</string>
-    <string name="_3_days_free_trial">3 أيام تجريبية مجانية!</string>
+    <string name="three_days_free_trial">3 أيام مجانية - بعد ذلك %s/سنة</string>
     <string name="_price_year_after_free_trial_ends_price2_month">٪ s /سنة بعد انتهاء الفترة التجريبية المجانية (~٪ s /شهر)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">قم بإزالة الإعلانات بشكل دائم حتى لا تنقطع وتتمتع بتجربة جيدة</string>
     <string name="supper_bargain_price_3_99">سعر صفقة العشاء:٪ s</string>
@@ -861,5 +861,9 @@
     <string name="guide_step_toolbar">3. استخدم شريط الأدوات للتعامل مع المستند</string>
     <string name="guide_step_highlight">١. انقر نقراً مزدوجاً أو اضغط مطولاً على أي نص لتحديده</string>
     <string name="guide_step_highlight_2">٢. اضغط على زر التمييز للتمييز</string>
+    <string name="billed_montly">يتم الفوترة شهريًا</string>
+    <string name="congrats">تهانينا!</string>
+    <string name="congrats_subtext">مرحبًا بك في البريميوم،\nاستمتع بالمزايا</string>
+    <string name="ok_great">حسناً، رائع!</string>
 
 </resources>

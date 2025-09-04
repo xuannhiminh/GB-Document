@@ -559,6 +559,10 @@
     <string name="app">Ứng dụng</string>
     <string name="display">Hiển thị</string>
     <string name="support">Hỗ trợ</string>
+    <string name="free_and_premium">Miễn phí &amp; Premium</string>
+    <string name="terms_privacy_text">Bằng cách đặt hàng này, bạn đồng ý với Điều khoản dịch vụ và Chính sách bảo mật. Gói đăng ký sẽ tự động gia hạn trừ khi bạn tắt tự động gia hạn ít nhất 24 giờ trước khi kết thúc chu kỳ hiện tại.</string>
+    <string name="discount">Tiết kiệm 33%</string>
+    <string name="terms_and_service">Điều khoản dịch vụ</string>
 
 
 </resources>

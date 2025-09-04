@@ -86,6 +86,7 @@ class SettingActivity : PdfBaseActivity<ActivitySettingsBinding>() {
         val isNotificationEnabled = PreferencesUtils.getBoolean("NOTIFICATION", false)
         binding.switchNotifications.isChecked = isNotificationEnabled
         binding.funcNotification.visibility = View.GONE
+        binding.funcNotificationLine.visibility = View.GONE
         val defaultPdfViewerResolveInfo = getDefaultPdfViewerClass()
         if (defaultPdfViewerResolveInfo?.activityInfo?.name?.contains(packageName) == true) {
             binding.funcSetDefault.visibility = View.GONE

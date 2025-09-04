@@ -671,7 +671,7 @@
     <string name="detail_office_pro_subscription"><u> Подробная информация о подписке на Office Pro</u>  </string>
     <string name="best_value_renew_automatically">Лучшее соотношение цены и качества — автоматическое продление</string>
     <string name="most_popular_renew_automatically">Самые популярные — автоматическое продление</string>
-    <string name="_3_days_free_trial">3-дневная бесплатная пробная версия!</string>
+    <string name="three_days_free_trial">Первые 3 дня бесплатно - Затем %s/год</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/год после окончания бесплатного пробного периода (~%s/месяц)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Удалите рекламу навсегда, чтобы не прерывать работу и получить хороший опыт</string>
     <string name="supper_bargain_price_3_99">Выгодная цена ужина: %s</string>
@@ -862,5 +862,9 @@
     <string name="guide_step_toolbar">3. Используйте панель инструментов для работы с документом</string>
     <string name="guide_step_highlight">1. двойной щелчок или долгое нажатие на текст для выбора</string>
     <string name="guide_step_highlight_2">2. нажмите кнопку выделения, чтобы выделить</string>
+    <string name="billed_montly">Выставляется счет ежемесячно</string>
+    <string name="congrats">Поздравляем!</string>
+    <string name="congrats_subtext">Добро пожаловать в Premium,\n наслаждайтесь преимуществами</string>
+    <string name="ok_great">Хорошо, отлично!</string>
 
 </resources>

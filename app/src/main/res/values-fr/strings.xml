@@ -543,6 +543,10 @@
     <string name="app">Application</string>
     <string name="display">Affichage</string>
     <string name="support">Support</string>
+    <string name="free_and_premium">Gratuit &amp; Premium</string>
+    <string name="terms_privacy_text">En passant cette commande, vous acceptez les Conditions d’utilisation et la Politique de confidentialité. L’abonnement se renouvelle automatiquement sauf si le renouvellement automatique est désactivé au moins 24 heures avant la fin de la période en cours.</string>
+    <string name="discount">Économisez 33%</string>
+    <string name="terms_and_service">Conditions d’utilisation</string>
 
 
 </resources>

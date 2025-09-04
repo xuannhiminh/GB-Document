@@ -144,7 +144,7 @@
 
     <string name="print_title">Cetak Dokumen</string>
 
-    <string name="privacy_policy">Rahasia pribadi</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
 
     <string name="pro_description">Dengan membeli Anda dapat menghapus semua iklan secara permanen.</string>
 
@@ -552,5 +552,9 @@
     <string name="app">Aplikasi</string>
     <string name="display">Tampilan</string>
     <string name="support">Dukungan</string>
+    <string name="free_and_premium">Gratis &amp; Premium</string>
+    <string name="terms_privacy_text">Dengan melakukan pesanan ini, Anda menyetujui Ketentuan Layanan dan Kebijakan Privasi. Langganan akan diperpanjang secara otomatis kecuali perpanjangan otomatis dimatikan setidaknya 24 jam sebelum akhir periode berjalan.</string>
+    <string name="discount">Hemat 33%</string>
+    <string name="terms_and_service">Ketentuan Layanan</string>
 
 </resources>

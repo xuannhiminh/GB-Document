@@ -674,7 +674,7 @@ Kunde: %s"</string>
     <string name="detail_office_pro_subscription"><u>Details zum Office Pro-Abonnement</u></string>
     <string name="best_value_renew_automatically">Bestes Angebot – Verlängert sich automatisch</string>
     <string name="most_popular_renew_automatically">Am beliebtesten – Verlängert sich automatisch</string>
-    <string name="_3_days_free_trial">3 Tage kostenlos testen!</string>
+    <string name="three_days_free_trial">Erste 3 Tage kostenlos - Danach %s/Jahr</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/Jahr nach Ablauf des kostenlosen Testzeitraums (~%s/Monat)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Entfernen Sie Werbung dauerhaft, um ununterbrochen und angenehm zu arbeiten</string>
     <string name="supper_bargain_price_3_99">Super Schnäppchenpreis: %s</string>
@@ -862,6 +862,10 @@ Kunde: %s"</string>
     <string name="guide_step_keyboard">2. Tippe auf die Tastaturschaltfläche, um die Tastatur anzuzeigen und zu bearbeiten</string>
     <string name="guide_step_toolbar">3. Verwende die Symbolleiste, um mit dem Dokument zu arbeiten</string>
     <string name="guide_step_highlight">1. Doppelklicken oder lange drücken, um einen text auszuwählen</string>
+    <string name="billed_montly">Monatlich abgerechnet</string>
+    <string name="congrats">Glückwunsch!</string>
+    <string name="congrats_subtext">Willkommen bei Premium,\n genieße die Vorteile</string>
+    <string name="ok_great">Ok, super!</string>
 
 
 </resources> 

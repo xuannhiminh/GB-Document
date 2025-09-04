@@ -1318,6 +1318,9 @@
             android:name="com.office.document.reader.viewer.editor.screen.iap.IapActivity"
             android:exported="true" />
         <activity
+            android:name="com.office.document.reader.viewer.editor.screen.iap.IapRegistrationSuccessfulActivity"
+            android:exported="true" />
+        <activity
             android:name="com.office.document.reader.viewer.editor.screen.search.FeedBackActivity"
             android:exported="true" />
         <activity

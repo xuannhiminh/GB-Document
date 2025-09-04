@@ -443,6 +443,10 @@
     <string name="app">App</string>
     <string name="display">Anzeige</string>
     <string name="support">Support</string>
+    <string name="free_and_premium">Kostenlos &amp; Premium</string>
+    <string name="terms_privacy_text">Mit der Bestellung stimmen Sie den Nutzungsbedingungen und der Datenschutzrichtlinie zu. Das Abonnement verlängert sich automatisch, sofern die automatische Verlängerung nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums deaktiviert wird.</string>
+    <string name="discount">Spare 33%</string>
+    <string name="terms_and_service">Nutzungsbedingungen</string>
 
 
 </resources> 

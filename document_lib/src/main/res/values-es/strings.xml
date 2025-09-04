@@ -671,7 +671,7 @@ Clientes"</string>
     <string name="detail_office_pro_subscription"><u> Detalle Suscripción Office Pro</u>  </string>
     <string name="best_value_renew_automatically">Mejor valor - Renovar automáticamente</string>
     <string name="most_popular_renew_automatically">Más Popular - Renovar Automáticamente</string>
-    <string name="_3_days_free_trial">¡Prueba gratuita de 3 días!</string>
+    <string name="three_days_free_trial">Primeros 3 días gratis - Luego %s/año</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/año después de que finalice la prueba gratuita (~%s/mes)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Elimine los anuncios de forma permanente para que no haya interrupciones y tenga una buena experiencia.</string>
     <string name="supper_bargain_price_3_99">Precio de ganga de la cena: %s</string>
@@ -862,5 +862,9 @@ Clientes"</string>
     <string name="guide_step_toolbar">3. Usa la barra de herramientas para trabajar con el documento</string>
     <string name="guide_step_highlight">1. Haz doble clic o mantén pulsado cualquier texto para seleccionarlo</string>
     <string name="guide_step_highlight_2">2. Presiona el botón resaltar para resaltar</string>
+    <string name="billed_montly">Facturado mensualmente</string>
+    <string name="congrats">¡Felicidades!</string>
+    <string name="congrats_subtext">Bienvenido a Premium,\n disfruta de los beneficios</string>
+    <string name="ok_great">¡Ok, genial!</string>
 
 </resources>

@@ -543,6 +543,10 @@
     <string name="app">ऐप</string>
     <string name="display">प्रदर्शन</string>
     <string name="support">सहायता</string>
+    <string name="free_and_premium">मुफ़्त &amp; प्रीमियम</string>
+    <string name="terms_privacy_text">यह ऑर्डर करने पर, आप सेवा की शर्तों और गोपनीयता नीति से सहमत होते हैं। सदस्यता स्वतः नवीनीकृत हो जाती है जब तक कि ऑटो-नवीनीकरण वर्तमान अवधि समाप्त होने से कम से कम 24 घंटे पहले बंद न किया जाए।</string>
+    <string name="discount">33% बचाएँ</string>
+    <string name="terms_and_service">प सेवा की शर्तों</string>
 
 
 </resources>

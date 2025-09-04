@@ -437,6 +437,10 @@
     <string name="app">应用</string>
     <string name="display">显示</string>
     <string name="support">支持</string>
+    <string name="free_and_premium">免费 &amp; 高级版</string>
+    <string name="terms_privacy_text">下此订单即表示您同意服务条款和隐私政策。订阅会自动续订，除非在当前周期结束前至少24小时关闭自动续订。</string>
+    <string name="discount">节省33%</string>
+    <string name="terms_and_service">服务条款</string>
 
 
 </resources> 

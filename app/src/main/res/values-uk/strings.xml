@@ -437,6 +437,10 @@
     <string name="app">Додаток</string>
     <string name="display">Дисплей</string>
     <string name="support">Підтримка</string>
+    <string name="free_and_premium">Безкоштовно &amp; Преміум</string>
+    <string name="terms_privacy_text">Оформлюючи це замовлення, ви погоджуєтесь із Умовами використання та Політика конфіденційності. Підписка автоматично поновлюється, якщо автоматичне поновлення не вимкнено щонайменше за 24 години до закінчення поточного періоду.</string>
+    <string name="discount">Зекономте 33%</string>
+    <string name="terms_and_service">Умовами використання</string>
 
 
 </resources> 

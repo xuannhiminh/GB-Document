@@ -671,7 +671,7 @@ Clients"</string>
     <string name="detail_office_pro_subscription"><u> Détail Abonnement Office Pro</u>  </string>
     <string name="best_value_renew_automatically">Meilleure valeur - Renouveler automatiquement</string>
     <string name="most_popular_renew_automatically">Les plus populaires - Renouveler automatiquement</string>
-    <string name="_3_days_free_trial">Essai gratuit de 3 jours!</string>
+    <string name="three_days_free_trial">3 premiers jours gratuits - Ensuite %s/an</string>
     <string name="_price_year_after_free_trial_ends_price2_month">%s/an après la fin de l\'essai gratuit (~%s/mois)</string>
     <string name="remove_ads_permanently_to_be_un_interruption_and_have_a_good_experience">Supprimez les publicités de façon permanente pour ne pas être interrompu et avoir une bonne expérience</string>
     <string name="supper_bargain_price_3_99">Prix \'aubaine du souper: %s</string>
@@ -862,4 +862,9 @@ Clients"</string>
     <string name="guide_step_toolbar">3. Utilisez la barre d’outils pour manipuler le document</string>
     <string name="guide_step_highlight">1. Double-cliquez ou appuyez longuement sur un texte pour le sélectionner</string>
     <string name="guide_step_highlight_2">2. Appuyez sur le bouton surligner pour surligner</string>
+    <string name="billed_montly">Facturé chaque mois</string>
+    <string name="congrats">Félicitations !</string>
+    <string name="congrats_subtext">Bienvenue à Premium,\n profitez des avantages</string>
+    <string name="ok_great">Ok, génial !</string>
+
 </resources>
